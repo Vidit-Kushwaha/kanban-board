@@ -1,0 +1,71 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.navbar__display-container {
+  position: relative;
+}
+
+.navbar__display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid #e5e5e5;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px 50px;
+  background-color: white;
+  padding: 8px 16px;
+}
+
+.navbar__display img {
+  height: 13px;
+}
+
+.navbar__display span {
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+.navbar__display-settings {
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 2px solid #e5e5e5;
+  top: 60px;
+  left: 50px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 5px 10px;
+  z-index: 50;
+}
+
+.navbar__display-setting {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 180px;
+}
+
+.navbar__display-setting-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #707070;
+}
+
+.navbar__display-setting select {
+  font-size: 13px;
+  font-weight: 500;
+  color: #000000;
+  border-radius: 5px;
+  border: 2px solid #e5e5e5;
+  background-color: #ffffff;
+  width: 100px;
+  padding: 8px 10px;
+}

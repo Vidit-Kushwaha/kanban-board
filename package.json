@@ -1,7 +1,9 @@
 {
-  "name": "original_quickshell",
+  "name": "kanban-board",
   "version": "0.1.0",
   "private": true,
+  "author": "Vidit Kushwaha <connect.viditkushwaha@gmail.com> (https://viditkushwaha.com/)",
+  "license": "MIT",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

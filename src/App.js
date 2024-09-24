@@ -1,7 +1,14 @@
-import React from "react";
+import Kanban from './components/Kanban';
+import Title from './components/Title';
 
-const App = () => {
-  return <div className="App">Learn React</div>;
-};
+function App() {
+
+  return (
+    <div className="App">
+      <Kanban/>
+      <Title/>
+    </div>
+  );
+}
 
 export default App;
